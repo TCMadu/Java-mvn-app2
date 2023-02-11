@@ -13,7 +13,7 @@ pipeline {
         stage('SCM-Checkout') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/TCMadu/Java-mvn-app2'
+                git 'https://github.com/LoksaiETA/Java-mvn-app2.git'
 
             }
               post {
